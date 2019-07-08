@@ -4,6 +4,8 @@ const program = new commander.Command()
 program
     .version('0.0.1', '-v, --version')
     .command('status', 'Display the current connection destination of each config.')
-    .parse(process.argv)
+    .action(() => {
+        console.log('status')
+    })
 
-console.log('Hello World')
+program.parse(process.argv)
