@@ -2,7 +2,7 @@
   "name": "dotconfigcli",
   "version": "0.0.1",
   "description": "Connection.config or Appsettings.config changer.",
-  "main": "dotconfig.js",
+  "main": "dconf.js",
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w"
