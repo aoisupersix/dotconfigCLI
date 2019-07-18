@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\dist\\dotconfig.js",
+            "program": "${workspaceFolder}\\dist\\dconf.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ],
